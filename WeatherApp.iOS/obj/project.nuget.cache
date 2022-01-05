@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "xznEy/7Rck04oQIpPujjWR1Tr8sENsWgIhoiFc/XPebNbBPoOmz7ml6Yhc4SJRoE4zZTvtf4crGa6nA5eg8Jzw==",
+  "success": true,
+  "projectFilePath": "/Users/czardesanta./VisualStudioProjects/WeatherApp/WeatherApp.iOS/WeatherApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/czardesanta./.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/czardesanta./.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/czardesanta./.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
