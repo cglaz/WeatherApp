@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/vBkl3yagcd2nlcsWdHD/yAXqRHh09/WzgY3YamLizE5+LfBKSoyKzpenNL/8ra8+rMKtaDLIC3bxckR1eGQng==",
+  "dgSpecHash": "tuwvPskTLy1mqnWDaF/BZFgEgMaYZzSkxSMWjFofKN4WGW041bpQv1yR5Om8NkCeocZs3OUSdQC1IkmO8sXIDg==",
   "success": true,
   "projectFilePath": "/Users/czardesanta./VisualStudioProjects/WeatherApp/WeatherApp.Android/WeatherApp.Android.csproj",
   "expectedPackageFiles": [
+    "/Users/czardesanta./.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/czardesanta./.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/czardesanta./.nuget/packages/xamarin.androidx.activity/1.1.0.5/xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "/Users/czardesanta./.nuget/packages/xamarin.androidx.annotation/1.1.0.8/xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",

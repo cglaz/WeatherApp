@@ -5,7 +5,6 @@
 /Users/czardesanta./VisualStudioProjects/WeatherApp/WeatherApp/obj/Release/netstandard2.0/WeatherApp.csproj.AssemblyReference.cache
 /Users/czardesanta./VisualStudioProjects/WeatherApp/WeatherApp/obj/Release/netstandard2.0/WeatherApp.GeneratedMSBuildEditorConfig.editorconfig
 /Users/czardesanta./VisualStudioProjects/WeatherApp/WeatherApp/obj/Release/netstandard2.0/App.xaml.g.cs
-/Users/czardesanta./VisualStudioProjects/WeatherApp/WeatherApp/obj/Release/netstandard2.0/MainPage.xaml.g.cs
 /Users/czardesanta./VisualStudioProjects/WeatherApp/WeatherApp/obj/Release/netstandard2.0/WeatherApp.AssemblyInfoInputs.cache
 /Users/czardesanta./VisualStudioProjects/WeatherApp/WeatherApp/obj/Release/netstandard2.0/WeatherApp.AssemblyInfo.cs
 /Users/czardesanta./VisualStudioProjects/WeatherApp/WeatherApp/obj/Release/netstandard2.0/WeatherApp.csproj.CoreCompileInputs.cache
@@ -13,3 +12,4 @@
 /Users/czardesanta./VisualStudioProjects/WeatherApp/WeatherApp/obj/Release/netstandard2.0/WeatherApp.dll
 /Users/czardesanta./VisualStudioProjects/WeatherApp/WeatherApp/obj/Release/netstandard2.0/ref/WeatherApp.dll
 /Users/czardesanta./VisualStudioProjects/WeatherApp/WeatherApp/obj/Release/netstandard2.0/WeatherApp.pdb
+/Users/czardesanta./VisualStudioProjects/WeatherApp/WeatherApp/obj/Release/netstandard2.0/Views/CurrentHomePage.xaml.g.cs

@@ -1,0 +1,61 @@
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a abrt while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Native stacktrace:
+=================================================================
+	0x1029300d5 - /Users/czardesanta./Library/Developer/CoreSimulator/Devices/AFB834BE-806F-40A6-ABA9-7A211C2CD4A3/data/Containers/Bundle/Application/0C7C19A9-BC5C-42A7-969B-4CC682DF1CA7/WeatherApp.iOS.app/WeatherApp.iOS : mono_dump_native_crash_info
+	0x102924bce - /Users/czardesanta./Library/Developer/CoreSimulator/Devices/AFB834BE-806F-40A6-ABA9-7A211C2CD4A3/data/Containers/Bundle/Application/0C7C19A9-BC5C-42A7-969B-4CC682DF1CA7/WeatherApp.iOS.app/WeatherApp.iOS : mono_handle_native_crash
+	0x10292f70f - /Users/czardesanta./Library/Developer/CoreSimulator/Devices/AFB834BE-806F-40A6-ABA9-7A211C2CD4A3/data/Containers/Bundle/Application/0C7C19A9-BC5C-42A7-969B-4CC682DF1CA7/WeatherApp.iOS.app/WeatherApp.iOS : sigabrt_signal_handler
+	0x11e045e2d - /usr/lib/system/libsystem_platform.dylib : _sigtramp
+	0x12bcee000 - Unknown
+	0x11df8a684 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/system/libsystem_c.dylib : abort
+	0x102b27c36 - /Users/czardesanta./Library/Developer/CoreSimulator/Devices/AFB834BE-806F-40A6-ABA9-7A211C2CD4A3/data/Containers/Bundle/Application/0C7C19A9-BC5C-42A7-969B-4CC682DF1CA7/WeatherApp.iOS.app/WeatherApp.iOS : xamarin_unhandled_exception_handler
+	0x1029de9c5 - /Users/czardesanta./Library/Developer/CoreSimulator/Devices/AFB834BE-806F-40A6-ABA9-7A211C2CD4A3/data/Containers/Bundle/Application/0C7C19A9-BC5C-42A7-969B-4CC682DF1CA7/WeatherApp.iOS.app/WeatherApp.iOS : mono_invoke_unhandled_exception_hook
+	0x1029247e3 - /Users/czardesanta./Library/Developer/CoreSimulator/Devices/AFB834BE-806F-40A6-ABA9-7A211C2CD4A3/data/Containers/Bundle/Application/0C7C19A9-BC5C-42A7-969B-4CC682DF1CA7/WeatherApp.iOS.app/WeatherApp.iOS : mono_handle_exception_internal
+	0x102922d09 - /Users/czardesanta./Library/Developer/CoreSimulator/Devices/AFB834BE-806F-40A6-ABA9-7A211C2CD4A3/data/Containers/Bundle/Application/0C7C19A9-BC5C-42A7-969B-4CC682DF1CA7/WeatherApp.iOS.app/WeatherApp.iOS : mono_handle_exception
+	0x1028a5120 - /Users/czardesanta./Library/Developer/CoreSimulator/Devices/AFB834BE-806F-40A6-ABA9-7A211C2CD4A3/data/Containers/Bundle/Application/0C7C19A9-BC5C-42A7-969B-4CC682DF1CA7/WeatherApp.iOS.app/WeatherApp.iOS : mono_amd64_throw_exception
+	0x15434f5b0 - Unknown
+	0x102b2783f - /Users/czardesanta./Library/Developer/CoreSimulator/Devices/AFB834BE-806F-40A6-ABA9-7A211C2CD4A3/data/Containers/Bundle/Application/0C7C19A9-BC5C-42A7-969B-4CC682DF1CA7/WeatherApp.iOS.app/WeatherApp.iOS : xamarin_process_managed_exception
+	0x1027ee409 - /Users/czardesanta./Library/Developer/CoreSimulator/Devices/AFB834BE-806F-40A6-ABA9-7A211C2CD4A3/data/Containers/Bundle/Application/0C7C19A9-BC5C-42A7-969B-4CC682DF1CA7/WeatherApp.iOS.app/WeatherApp.iOS : _ZL31native_to_managed_trampoline_11P11objc_objectP13objc_selectorPP11_MonoMethodj
+	0x1027eeb69 - /Users/czardesanta./Library/Developer/CoreSimulator/Devices/AFB834BE-806F-40A6-ABA9-7A211C2CD4A3/data/Containers/Bundle/Application/0C7C19A9-BC5C-42A7-969B-4CC682DF1CA7/WeatherApp.iOS.app/WeatherApp.iOS : -[__MonoMac_NSAsyncSynchronizationContextDispatcher xamarinApplySelector]
+	0x114a17992 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/Foundation.framework/Foundation : __NSThreadPerformPerform
+	0x10cbd5e15 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation : __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__
+	0x10cbd5d0d - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation : __CFRunLoopDoSource0
+	0x10cbd51e2 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation : __CFRunLoopDoSources0
+	0x10cbcf941 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation : __CFRunLoopRun
+	0x10cbcf0f3 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation : CFRunLoopRunSpecific
+	0x11ef85cd3 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices : GSEventRunModal
+	0x1344a8f42 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIApplication _run]
+	0x1344adb5e - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : UIApplicationMain
+	0x15db5fa14 - Unknown
+	0x15db5f59b - Unknown
+	0x102939d85 - /Users/czardesanta./Library/Developer/CoreSimulator/Devices/AFB834BE-806F-40A6-ABA9-7A211C2CD4A3/data/Containers/Bundle/Application/0C7C19A9-BC5C-42A7-969B-4CC682DF1CA7/WeatherApp.iOS.app/WeatherApp.iOS : mono_jit_runtime_invoke
+	0x102a514f8 - /Users/czardesanta./Library/Developer/CoreSimulator/Devices/AFB834BE-806F-40A6-ABA9-7A211C2CD4A3/data/Containers/Bundle/Application/0C7C19A9-BC5C-42A7-969B-4CC682DF1CA7/WeatherApp.iOS.app/WeatherApp.iOS : mono_runtime_invoke_checked
+	0x102a569e5 - /Users/czardesanta./Library/Developer/CoreSimulator/Devices/AFB834BE-806F-40A6-ABA9-7A211C2CD4A3/data/Containers/Bundle/Application/0C7C19A9-BC5C-42A7-969B-4CC682DF1CA7/WeatherApp.iOS.app/WeatherApp.iOS : mono_runtime_exec_main_checked
+	0x1028a4c3c - /Users/czardesanta./Library/Developer/CoreSimulator/Devices/AFB834BE-806F-40A6-ABA9-7A211C2CD4A3/data/Containers/Bundle/Application/0C7C19A9-BC5C-42A7-969B-4CC682DF1CA7/WeatherApp.iOS.app/WeatherApp.iOS : mono_jit_exec
+	0x102b304ca - /Users/czardesanta./Library/Developer/CoreSimulator/Devices/AFB834BE-806F-40A6-ABA9-7A211C2CD4A3/data/Containers/Bundle/Application/0C7C19A9-BC5C-42A7-969B-4CC682DF1CA7/WeatherApp.iOS.app/WeatherApp.iOS : xamarin_main
+	0x10287c964 - /Users/czardesanta./Library/Developer/CoreSimulator/Devices/AFB834BE-806F-40A6-ABA9-7A211C2CD4A3/data/Containers/Bundle/Application/0C7C19A9-BC5C-42A7-969B-4CC682DF1CA7/WeatherApp.iOS.app/WeatherApp.iOS : main
+	0x10b92aee9 - Unknown
+	0x2033654fe - Unknown
+	0x203360000 - Unknown
+	0x1027e0000 - /Users/czardesanta./Library/Developer/CoreSimulator/Devices/AFB834BE-806F-40A6-ABA9-7A211C2CD4A3/data/Containers/Bundle/Application/0C7C19A9-BC5C-42A7-969B-4CC682DF1CA7/WeatherApp.iOS.app/WeatherApp.iOS : __dso_handle
+
+=================================================================
+	Basic Fault Address Reporting
+=================================================================
+Memory around native instruction pointer (0x11e24b112):0x11e24b102  ff ff c3 90 90 90 b8 48 01 00 02 49 89 ca 0f 05  .......H...I....
+0x11e24b112  73 08 48 89 c7 e9 d5 a1 ff ff c3 90 90 90 b8 53  s.H............S
+0x11e24b122  00 00 02 49 89 ca 0f 05 73 08 48 89 c7 e9 bd a1  ...I....s.H.....
+0x11e24b132  ff ff c3 90 90 90 b8 83 01 00 02 49 89 ca 0f 05  ...........I....
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+=================================================================
