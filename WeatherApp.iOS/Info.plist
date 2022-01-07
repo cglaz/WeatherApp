@@ -47,5 +47,7 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Message</string>
 </dict>
 </plist>

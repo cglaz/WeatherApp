@@ -1,16 +1,17 @@
 ﻿<Properties StartupConfiguration="{07FC51C6-4A66-4528-A085-9D0ACCEDB28E}|Default">
   <MonoDevelop.Ide.ItemProperties.WeatherApp.Android FirstBuild="True" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WeatherApp.iOS/Info.plist">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WeatherApp/Views/CurrentHomePage.xaml.cs">
     <Files>
       <File FileName="WeatherApp/Views/CurrentHomePage.xaml" Line="39" Column="134" />
-      <File FileName="WeatherApp/Views/CurrentHomePage.xaml.cs" Line="46" Column="35" />
-      <File FileName="WeatherApp/App.xaml" Line="1" Column="1" />
-      <File FileName="WeatherApp/App.xaml.cs" Line="12" Column="35" />
-      <File FileName="WeatherApp/Helpers/ApiCaller.cs" Line="25" Column="10" />
-      <File FileName="WeatherApp/Models/WeatherObject.cs" Line="7" Column="30" />
-      <File FileName="WeatherApp.iOS/Properties/AssemblyInfo.cs" Line="1" Column="1" />
-      <File FileName="WeatherApp.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="WeatherApp/Views/CurrentHomePage.xaml.cs" Line="106" Column="37" />
+      <File FileName="WeatherApp/App.xaml" />
+      <File FileName="WeatherApp/App.xaml.cs" />
+      <File FileName="WeatherApp/Helpers/ApiCaller.cs" />
+      <File FileName="WeatherApp/Models/WeatherObject.cs" />
+      <File FileName="WeatherApp.iOS/Properties/AssemblyInfo.cs" />
+      <File FileName="WeatherApp.iOS/Main.cs" />
       <File FileName="WeatherApp.iOS/Info.plist" />
+      <File FileName="WeatherApp/Models/BgObject.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,14 +22,15 @@
               <Node name="Helpers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="CurrentHomePage.xaml" expanded="True" />
+                <Node name="CurrentHomePage.xaml" expanded="True">
+                  <Node name="CurrentHomePage.xaml.cs" selected="True" />
+                </Node>
               </Node>
               <Node name="App.xaml" expanded="True" />
             </Node>
             <Node name="WeatherApp.iOS" expanded="True">
               <Node name="Properties" expanded="True" />
               <Node name="Resources" expanded="True" />
-              <Node name="Info.plist" selected="True" />
             </Node>
           </Node>
         </State>
@@ -36,10 +38,10 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.WeatherApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AFB834BE-806F-40A6-ABA9-7A211C2CD4A3" />
+  <MonoDevelop.Ide.ItemProperties.WeatherApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A467E4E3-9814-429B-842C-A8014EF34F25" />
 </Properties>

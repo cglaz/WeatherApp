@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "mJ3J8tq//7xRXYxniNP+y0Egw9O3xkZaIm6/G0oAwnNVyHjhhvOA14ctyAD+UXtFjhTgKAPUs8cgtHHH9KaMjg==",
+  "dgSpecHash": "+Gqg42vkkExHmERDnYBxUN8fkGwEIwDNYL+DDC6si8GuU1ggu0FLuQfKamXGSo+poU8dvVKzhDfrpdO3xvDW3g==",
   "success": true,
   "projectFilePath": "/Users/czardesanta./VisualStudioProjects/WeatherApp/WeatherApp.iOS/WeatherApp.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/czardesanta./.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/czardesanta./.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
-    "/Users/czardesanta./.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
-    "/Users/czardesanta./.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "/Users/czardesanta./.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/czardesanta./.nuget/packages/xamarin.forms/5.0.0.2291/xamarin.forms.5.0.0.2291.nupkg.sha512"
   ],
   "logs": []
 }
