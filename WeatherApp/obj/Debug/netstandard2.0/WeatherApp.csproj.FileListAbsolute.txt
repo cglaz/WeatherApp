@@ -13,3 +13,5 @@
 /Users/czardesanta./VisualStudioProjects/WeatherApp/WeatherApp/obj/Debug/netstandard2.0/WeatherApp.dll
 /Users/czardesanta./VisualStudioProjects/WeatherApp/WeatherApp/obj/Debug/netstandard2.0/ref/WeatherApp.dll
 /Users/czardesanta./VisualStudioProjects/WeatherApp/WeatherApp/obj/Debug/netstandard2.0/WeatherApp.pdb
+/Users/czardesanta./VisualStudioProjects/WeatherApp/WeatherApp/obj/Debug/netstandard2.0/Views/LoginView.xaml.g.cs
+/Users/czardesanta./VisualStudioProjects/WeatherApp/WeatherApp/obj/Debug/netstandard2.0/Views/RegisterView.xaml.g.cs

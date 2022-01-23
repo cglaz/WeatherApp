@@ -2,16 +2,9 @@
   <MonoDevelop.Ide.ItemProperties.WeatherApp.Android FirstBuild="True" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
   <MonoDevelop.Ide.Workbench ActiveDocument="WeatherApp/Views/CurrentHomePage.xaml.cs">
     <Files>
-      <File FileName="WeatherApp/Views/CurrentHomePage.xaml" Line="39" Column="134" />
-      <File FileName="WeatherApp/Views/CurrentHomePage.xaml.cs" Line="106" Column="37" />
-      <File FileName="WeatherApp/App.xaml" />
-      <File FileName="WeatherApp/App.xaml.cs" />
-      <File FileName="WeatherApp/Helpers/ApiCaller.cs" />
+      <File FileName="WeatherApp/Views/CurrentHomePage.xaml.cs" Line="133" Column="58" />
+      <File FileName="WeatherApp/Views/LoginView.xaml.cs" />
       <File FileName="WeatherApp/Models/WeatherObject.cs" />
-      <File FileName="WeatherApp.iOS/Properties/AssemblyInfo.cs" />
-      <File FileName="WeatherApp.iOS/Main.cs" />
-      <File FileName="WeatherApp.iOS/Info.plist" />
-      <File FileName="WeatherApp/Models/BgObject.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,18 +12,19 @@
           <Option id="ShowAllFiles" value="True" />
           <Node name="WeatherApp" expanded="True">
             <Node name="WeatherApp" expanded="True">
-              <Node name="Helpers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="CurrentHomePage.xaml" expanded="True">
-                  <Node name="CurrentHomePage.xaml.cs" selected="True" />
-                </Node>
+                <Node name="CurrentHomePage.xaml" expanded="True" />
+                <Node name="LoginView.xaml" expanded="True" />
+                <Node name="RegisterView.xaml" expanded="True" />
               </Node>
               <Node name="App.xaml" expanded="True" />
             </Node>
             <Node name="WeatherApp.iOS" expanded="True">
               <Node name="Properties" expanded="True" />
-              <Node name="Resources" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="add.png" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -38,7 +32,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

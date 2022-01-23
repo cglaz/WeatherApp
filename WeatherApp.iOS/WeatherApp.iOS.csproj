@@ -73,7 +73,6 @@
     <None Include="Info %283rd copy%29.plist" />
   </ItemGroup>
   <ItemGroup>
-    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
@@ -137,19 +136,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\add.png" />
     <BundleResource Include="Resources\bg.png" />
     <BundleResource Include="Resources\cloud.png" />
     <BundleResource Include="Resources\cloudiness.png" />
-    <BundleResource Include="Resources\Default.png" />
-    <BundleResource Include="Resources\Default%402x.png" />
-    <BundleResource Include="Resources\Default-568h%402x.png" />
-    <BundleResource Include="Resources\Default-Portrait.png" />
-    <BundleResource Include="Resources\Default-Portrait%402x.png" />
     <BundleResource Include="Resources\gauge.png" />
     <BundleResource Include="Resources\humidity.png" />
-    <BundleResource Include="Resources\menu.png" />
-    <BundleResource Include="Resources\overlay.png" />
     <BundleResource Include="Resources\w01d.png" />
     <BundleResource Include="Resources\w01n.png" />
     <BundleResource Include="Resources\w02d.png" />
@@ -169,5 +160,6 @@
     <BundleResource Include="Resources\w50d.png" />
     <BundleResource Include="Resources\w50n.png" />
     <BundleResource Include="Resources\wind.png" />
+    <BundleResource Include="Resources\Weather.jpeg" />
   </ItemGroup>
 </Project>

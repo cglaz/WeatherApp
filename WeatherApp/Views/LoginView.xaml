@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="WeatherApp.Views.LoginView">
+    <ContentPage.Content>  
+        <StackLayout Orientation="Vertical" Padding="60" Spacing="20" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+
+            <Image Source="Weather.jpeg" WidthRequest="180"></Image>
+            <Label TextColor="White" FontSize = "30" Text="WeatherApp" VerticalOptions="Center" Margin="60, -75, 0, 0"/>
+
+            <Entry x:Name="txtUserEmail" Placeholder="Email" TextColor="White" PlaceholderColor="Gray"></Entry>
+            <Entry x:Name="txtUserPassword" Placeholder="Hasło" IsPassword="True" TextColor="White" PlaceholderColor="Gray"></Entry>
+            <Button
+                VerticalOptions="Center"
+                Text="Zaloguj się"
+                FontSize = "15"
+                BackgroundColor="Transparent"
+                BorderColor="White"
+                BorderWidth="1.5"
+                CornerRadius="20"
+                Margin="0, 20, 0, 0"
+                Clicked="Button_Clicked"
+                ></Button>
+
+            <Label HorizontalOptions="Center" Margin="0, 20, 0, 0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Nie masz u nas konta? " TextColor="White"/>
+                        <Span Text="Zarejestruj się " TextColor="Gray" FontAttributes="Bold" TextDecorations="Underline"/>
+                    </FormattedString>
+                </Label.FormattedText>
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"></TapGestureRecognizer>
+                </Label.GestureRecognizers>
+            </Label>
+           
+
+        </StackLayout>  
+    </ContentPage.Content>  
+</ContentPage>

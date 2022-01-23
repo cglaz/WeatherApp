@@ -19,10 +19,11 @@ namespace WeatherApp.Views
         public CurrentHomePage()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
             GetCoordinates();
         }
 
-        private string Location { get; set; } = "London";
+        private string Location { get; set; } = "Paris";
         public double Latitude { get; set; }
         public double Longitudue { get; set; }
 
@@ -130,8 +131,7 @@ namespace WeatherApp.Views
                     List<List> allList = new List<List>();
 
                     foreach (var list in forcastInfo.list)
-                    {
-                        //var date = DateTime.ParseExact(list.dt_txt, "yyyy-MM-dd hh:mm:ss", CultureInfo.InvariantCulture);
+                    { 
                         var date = DateTime.Parse(list.dt_txt);
 
                         if (date > DateTime.Now && date.Hour == 0 && date.Minute == 0 && date.Second == 0)
